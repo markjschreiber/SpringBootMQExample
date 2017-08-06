@@ -1,4 +1,41 @@
-	.classpath
-	.mvn/
-	.project
-	.settings/
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+inspection
+IntelliLang.xml
+
+#Random IDE noise
+debugger.xml
+diff.xml
+ide.general.xml
+scala.xml
+web-browsers.xml
+mavenVersion.xml
+gradle.run.settings.xml
+colors.scheme.xml
+parameter.hints.xml
+vcs.xml
+web-browsers.xml
+
+# Mac
+.DS_Store
+_mac/
+
+#Atlassian plugin
+atlassian-ide-plugin.app.xml
+
+# Maven
+log/
+target/
+
+#Private config information
+private/
+
+#other cruft
+.mvn/
